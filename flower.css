@@ -1,0 +1,43 @@
+.flower-container {
+    position:absolute;
+    top:200px;
+    left:200px;
+    border:1px solid rred;
+    height:400px;
+    width: 400px;
+}
+
+.petal {
+    height:100px;
+    width: 100px;
+    background-color:aqua;
+    position: absolute;
+    transform:rotate(180deg);
+    border-radius: 0 50% 50% 50%;
+}
+
+.petal-container {
+    position:abolute;
+    height:400px;
+    width:400px;
+    /* background-color:pink; */
+    /* transform:rotate(45deg); */
+    animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+.petal-container-wrapper {
+    position:abolute;
+    height:400px;
+    width:400px;
+    /* background-color:pink; */
+    /* animation: spin 1s linear infinite; */
+}

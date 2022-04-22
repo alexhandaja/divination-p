@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+           html { 
+       background: url(love_bg.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+         -moz-background-size: cover;
+          -o-background-size: cover;
+       background-size: cover;
+           }
+       .cards
+       {
+     position: relative;
+      top: -90px;
+      /* left:10px; */
+       }
+
+    </style>
+    <title>
+        Do They Love You?
+    </title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+	<script src="flwer.js"></script>
+	<script src="function.js"></script>
+	<script src="trianglePointsToDegrees.js"></script>
+	<script src="log.js"></script>
+
+    
+    <link rel="stylesheet" href="main.css" />
+
+</head>
+<body>
+  
+        <center>
+            <div id= "loveText" >
+                <h1 id="lovesme"> 
+                    <p>
+                        LOVES ME, LOVES ME NOT
+                    </p> </h1>
+            </div>
+
+<div class="card">
+    <div class="cards">
+        <img src="containerthing.png" alt="Avatar" style="width:120%;" class="cards">
+   </div>
+   
+    <div class="container">
+
+    
+
+    <div id="option">
+       
+<h2>
+<form>
+    <label for="name"> Pronouns </label><br>
+    <input type="radio" name="pronoun" value ="she">she
+    <input type="radio" name="pronoun" value ="he">he
+    <input type="radio" name="pronoun" value ="they">they<br>
+
+    <label for="name"> Name of your crush: </label>
+    <input type="text" id="name"></input>
+    <input type="button" id="start" value="play"></input>
+</form>
+
+</h2>
+
+    </div>
+    <div id="flowerarea">
+        <div id="flwr"></div>
+</div>
+        </div>
+
+
+
+        </center>
+
+    
+</body>
+</html>

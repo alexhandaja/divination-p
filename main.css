@@ -1,0 +1,108 @@
+:root {
+    --color-bg: rgb(0, 0, 0);
+    --color-text-main: #000000;
+    --color-primary: #FFFF00;
+    --wrapper-height: 87vh;
+    --image-max-width: 300px;
+    --image-margin: 3rem;
+    --font-family: "";
+    --font-family-header: "HK Grotesk";
+  }
+  
+  /* Basic page style resets */
+  * {
+    box-sizing: border-box;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  
+  /* Basic page style resets */
+  * {
+    box-sizing: border-box;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  
+  /* Import fonts */
+  @font-face {
+    font-family: Arial;
+    src: url("ErotiqueAlternateTrial-Regular.ttf")
+      format("opentype");
+  }
+  @font-face {
+    font-family: HK Grotesk;
+    font-weight: bold;
+    src: url("AidanBissettsHandwriting-Regular[1].ttf")
+      format("opentype");
+  }
+
+  p {
+
+
+    font-family: Arial;
+   
+   
+    }
+    .card {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(255, 131, 228, 0.2);
+        transition: 0.3s;
+        width: 500px;
+        height: 300px;
+        border-radius: 5px;
+        border: 2px solid rgb(255, 135, 173);
+        background-color: #eaf1f7;
+        position: absolute;
+        left:400px;
+        bottom: 300px;
+        text-align: center;
+        
+      }
+      
+      /* On mouse-over, add a deeper shadow */
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        
+      }
+      .container {
+        padding: 2px 100px;
+        
+      }
+
+h1{
+    font-size: 60px;
+    
+    color: #fff9fd
+
+    
+}
+
+h2{
+
+    font-family: HK Grotesk;
+    text-align: center;
+    position: absolute;
+    right:40px;
+    bottom: 50%;
+    color: #000000
+
+    
+   
+}
+input[type=text] {
+    border: 2px solid rgb(255, 187, 208);
+    width: 100px;
+    border-radius: 4px;
+    transition: width 0.4s ease-in-out;
+  }
+
+  input[type=text]:focus {
+    width: 40%;
+  }
+  img {
+    border-radius: 5px 5px 0 0;
+    bottom: 300px;
+  }
+ 
